@@ -1,5 +1,5 @@
 # Movie-Recommendation
-this repository contains code for recommending movies using cosine similarity
+this repository contains code for recommending similar movies to users based on the kind of movie entered using cosine similarity
 # DataSet
 the data set used for the course was collected from Kaggle: Kaggle datasets download -d parthdande/imdb-dataset-2024-updated
 #features
@@ -29,5 +29,13 @@ relevant features were combined to form a single feature called a combined featu
 Genre, director, and certificates 
 
 # Method
+
+First, we take the input in the get recommendation function
+
+Then we take the index of the input and see which data matches
+
+Then we compute a cosine similarity for this input and all the other entries in the data on the combined score
+
+Then we sort the cosine similarity and return the top most cosine similar entries in the data (recommendations)
 
       
