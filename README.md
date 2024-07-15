@@ -14,21 +14,20 @@ the dataset contains
     Star Cast: The main actors in the movie.
     Metascore: The Metacritic score of the movie
     Duration (minutes): The duration of the movie in minutes.
-
-    #Analyzing Relationship
+ # Analyzing Relationship
     We'll analyze the relationships between IMDb ratings and the following features:
+    Year
+    Certificates
+    Genre
+    Director
+    Metascore
+    Duration (minutes)
+    this bivariate analysis is performed to find the relationship between two features
 
-      Year
-      Certificates
-      Genre
-      Director
-      Metascore
-      Duration (minutes)
-      this bivariate analysis is performed to find the relationship between two features
+# feature Engineering
+relevant features were combined to form a single feature called a combined feature
+Genre, director, and certificates 
 
-      #feature Engineering
-      relevant features were combined to form a single feature called a combined feature
-      Genre, director, and certificates 
+# Method
 
-      #Method
       
