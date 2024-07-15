@@ -2,7 +2,7 @@
 this repository contains code for recommending movies using cosine similarity
 # DataSet
 the data set used for the course was collected from Kaggle: Kaggle datasets download -d parthdande/imdb-dataset-2024-updated
-# features
+#features
 the dataset contains 
 
     Title: The name of the movie.
@@ -15,7 +15,7 @@ the dataset contains
     Metascore: The Metacritic score of the movie
     Duration (minutes): The duration of the movie in minutes.
 
-    # Analyzing Relationship
+    #Analyzing Relationship
     We'll analyze the relationships between IMDb ratings and the following features:
 
       Year
@@ -26,9 +26,9 @@ the dataset contains
       Duration (minutes)
       this bivariate analysis is performed to find the relationship between two features
 
-      # feature Engineering
+      #feature Engineering
       relevant features were combined to form a single feature called a combined feature
       Genre, director, and certificates 
 
-      # Method
+      #Method
       
